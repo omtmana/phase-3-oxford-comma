@@ -1,4 +1,11 @@
-# 1. oxford_comma returns a string without any additional formatting when given a 1-element array
+=begin
+oxford_comma
+  returns a string without any additional formatting when given a 1-element array
+  adds 'and' between elements when given a 2-element array
+  adds commas plus a final 'and' when given a 3-element array
+  correctly formats arrays of lengths greater than three
+=end
+
 # String to Array
    # -- split method -- will convert a string into an array
    # "diane, andrea, molly, joyce".split(",")
